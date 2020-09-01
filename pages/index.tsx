@@ -1,15 +1,9 @@
-import Link from 'next/link'
-import { ReactElement } from 'react'
+import { FunctionComponent } from 'react'
 
-const Home = (): ReactElement => {
-  return (
-    <div>
-      <p>Hey!</p>
-      <Link href="/sell">
-        <a>Sell</a>
-      </Link>
-    </div>
-  )
-}
+const Home: FunctionComponent = () => (
+  <div>
+    <p>Hey!</p>
+  </div>
+)
 
 export default Home

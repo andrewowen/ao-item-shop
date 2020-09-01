@@ -1,10 +1,11 @@
 import { AppProps } from 'next/app'
 import { ReactElement } from 'react'
+import Page from '../components/Page'
 
 function MyApp({ Component, pageProps }: AppProps): ReactElement {
   return (
     <>
-      <p>Hey I&apos;m on every page</p>
+      <Page />
       <Component {...pageProps} />
     </>
   )
